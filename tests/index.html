@@ -1,0 +1,28 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mocha Tests</title>
+  <link rel="stylesheet" href="mocha.css" />
+  <script src="mocha.js"></script>
+  <script src="chai.js"></script>
+  <script src="../vendor/require.js"></script>
+  <script>
+    mocha.setup('bdd');
+    var assert = chai.assert;
+    
+    require(["domReady", "/tests/unit/testsss.js"], function(dr){
+
+      dr(function(){
+        mocha.run();
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="mocha">
+  </div>
+  <div id="fixture" style="visible: none">
+dsad
+  </div>
+</body>
+</html>

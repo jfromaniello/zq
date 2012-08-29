@@ -1,0 +1,29 @@
+{
+  "name": "zq",
+  "version": "0.0.0",
+  "description": "an AMD combination of DOM libraries that works for me and might work for you as well",
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/server.js",
+    "install": "jam install"
+  },
+  "repository": "",
+  "author": {
+      "name": "José F. Romaniello",
+      "email": "jfromaniello@gmail.com",
+      "web": "http://joseoncode.com" 
+  }, 
+  "main": "lib/zq.js",
+  "devDependencies": {
+    "connect": "2.1.3"
+  },
+  "jam": {
+    "packageDir": "vendor",
+    "baseUrl": "tests",
+    "dependencies": {
+      "qwery": "*",
+      "bean": "*",
+      "bonzo": "*"
+    }
+  }
+}
