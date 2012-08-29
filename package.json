@@ -3,11 +3,15 @@
   "version": "0.0.0",
   "description": "an AMD combination of DOM libraries that works for me and might work for you as well",
   "license": "MIT",
+  "homepage": "http://github.com/jfromaniello/zq",
   "scripts": {
     "test": "node tests/server.js",
     "install": "jam install"
   },
-  "repository": "",
+  "repository": {
+    "type": "git", 
+    "url": "https://github.com/jfromaniello/zq.git"
+  },
   "author": {
       "name": "José F. Romaniello",
       "email": "jfromaniello@gmail.com",

@@ -8,7 +8,7 @@ zq uses [ded/qwery](http://github.com/ded/qwery), [ded/bonzo](http://github.com/
 
 # Installation
 
-  jam install zq
+    jam install zq
 
 
 Do not use this project (yet?) if you are not using jam. If you are looking for an alternative like this to jquery but you dont want to use jam, you might want to check [ender](http://ender.no.de/).
