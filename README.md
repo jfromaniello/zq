@@ -6,7 +6,7 @@ zq integrates three small libraries for DOM operations:
 * [qwery](http://github.com/ded/qwery) 
 * [bean](http://github.com/fat/bean)
 
-in a similar syntax to jquery but with a different intention.
+in a similar syntax to jquery but with different intention.
 
 zq is [AMD](http://requirejs.org/docs/whyamd.html) and it is deployed to [jam](http://jamjs.org).
 
