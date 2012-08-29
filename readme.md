@@ -1,17 +1,21 @@
 # zq
 
-zq is the combination of some small JavaScript libraries to allow dom manipulation in a similar syntax to jquery but with a different intention.
+zq integrates three small libraries for DOM operations: 
+
+* [bonzo](http://github.com/ded/bonzo)
+* [qwery](http://github.com/ded/qwery) 
+* [bean](http://github.com/fat/bean)
+
+in a similar syntax to jquery but with a different intention.
 
 zq is [AMD](http://requirejs.org/docs/whyamd.html) and it is deployed to [jam](http://jamjs.org).
-
-zq uses [ded/qwery](http://github.com/ded/qwery), [ded/bonzo](http://github.com/ded/bonzo) and [fat/bean](http://github.com/fat/bean).
 
 # Installation
 
     jam install zq
 
 
-Do not use this project (yet?) if you are not using jam. If you are looking for an alternative like this to jquery but you dont want to use jam, you might want to check [ender](http://ender.no.de/).
+Do not use this project (yet?) if you are not using jam. If you are looking for an alternative to jquery but do not want to use jam, you might want to check [ender](http://ender.no.de/).
 
 # Some examples
 

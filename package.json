@@ -1,9 +1,9 @@
 {
   "name": "zq",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "an AMD combination of DOM libraries that works for me and might work for you as well",
   "license": "MIT",
-  "homepage": "http://github.com/jfromaniello/zq",
+  "homepage": "https://github.com/jfromaniello/zq",
   "scripts": {
     "test": "node tests/server.js",
     "install": "jam install"
