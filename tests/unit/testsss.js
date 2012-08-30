@@ -83,7 +83,11 @@ define(["../../lib/zq.js",
       });
     });
 
-
+    describe("bonzo extras", function(){
+      it("should allow to call 'find'", function(){
+        expect(zq("#fixture").find("div.a").length).be.equal(1);
+      });
+    });
   });
 
 
